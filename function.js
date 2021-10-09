@@ -1,6 +1,9 @@
 setTimeout(() => {
     $("#header").remove()
     let nr = "娃哈哈AD钙";
+    let date=new Date
+    let url=document.domain
+    console.log(url)
     console.log('fffff')
     printpage(nr)
 }, 3000)
