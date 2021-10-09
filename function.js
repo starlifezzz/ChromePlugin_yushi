@@ -3,8 +3,8 @@ let url = document.domain
 if (url == "*.taobao.com") {
     setTimeout(() => {
         $("#header").remove()
-        let nr = "娃哈哈AD钙";
         let date = new Date
+        let nr = "娃哈哈AD钙  :"+date;
         console.log(url)
         console.log('fffff')
         printpage(nr)
