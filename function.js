@@ -1,10 +1,19 @@
 
 let url = document.domain
+
+if (url == "cn.bing.com") {
+    setTimeout(() => {
+        console.log($("p"))
+        // var color = window.getComputedStyle(document.querySelector('p'), ':before')
+        // console.log(color)
+    }, 2000)
+}
+
 if (url == "*.taobao.com") {
     setTimeout(() => {
         $("#header").remove()
         let date = new Date
-        let nr = "娃哈哈AD钙  :"+date;
+        let nr = "娃哈哈AD钙  :" + date;
         console.log(url)
         console.log('fffff')
         printpage(nr)
